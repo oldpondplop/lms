@@ -1,0 +1,46 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Python Virtual Environment
+.venv/
+.env
+*.pyc
+*.pyo
+__pycache__/
+
+# FastAPI Specific
+instance/
+lms.db  # Ignore SQLite database file
+lms.db-journal  # Ignore SQLite journal file
+migrations/  # Ignore Alembic migrations if using
+*.sqlite3
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Vercel & Deployment
+.vercel
+.env.local
+.env.production
+vercel.json
+
+# Node.js (React/Vite) Files
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm and yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# MacOS-specific files
+*.DS_Store
