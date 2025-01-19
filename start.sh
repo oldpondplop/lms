@@ -21,7 +21,7 @@ cd ..
 
 # Start Frontend
 cd frontend || exit 1
-npm run dev -- --host=0.0.0.0 &  # Run in background
+npm run dev -- --host=0.0.0.0 --port=5173 &  # Run in background
 FRONTEND_PID=$!  # Store frontend PID
 cd ..
 
