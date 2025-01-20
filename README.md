@@ -57,9 +57,9 @@ lms/
 │   │   ├── pages/        # Page-based routing
 │   │   ├── hooks/        # Custom hooks
 │   │   ├── context/      # State management (Context API)
-│   │   ├── App.tsx       # Root component
-│   │   ├── main.tsx      # Entry point for React
-│   ├── vite.config.ts    # Vite configuration
+│   │   ├── App.jsx       # Root component
+│   │   ├── main.jsx      # Entry point for React
+│   ├── vite.config.js    # Vite configuration
 │   ├── package.json      # Frontend dependencies
 │   ├── Dockerfile        # Frontend containerization
 │   ├── vercel.json       # Vercel config for frontend deployment
